@@ -60,6 +60,61 @@ h1 {
   padding: 20px;
 }
 
+.footer {
+   position: fixed;
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F5DEB3;
+   
+   text-align: left;
+   padding:5px;
+}
+
+
+
+.quoting {
+	/* border: 5px solid red; */
+  width: 400px;
+  display: block;
+  
+}
+
+.quote-box {
+	background-color: #FFF8DC;
+  border: 2px solid #ddd;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+
+#quote {
+  color: #444;
+  text-align: center;
+}
+
+#author {
+  float: right;
+  color: #8B4513;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#btn {
+  align-self: center;
+  border: 2px solid #6699CC;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: #666;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#btn:focus {
+  outline: none;
+}
+
 
 /* responsive */
 
@@ -81,7 +136,15 @@ h1 {
 	h1 {
 		font-size: 32px;
 	}
+	
+	
+	.quoting {
+		width: 150px;
+		margin-left:20px;
+	}
 }
+
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
